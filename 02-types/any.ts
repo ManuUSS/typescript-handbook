@@ -15,7 +15,7 @@
     console.log( ( hero as string ).charAt( 0 ));   //Intellisense
     hero = 15.46465;
     console.log( hero.toFixed( 2 ));  //No intellisense
-    console.log( (<number>hero).toFixed( 2 ));  //No intellisense
+    console.log( (<number>hero).toFixed( 2 ));  //Intellisense
 
     console.log( exists );
     console.log( power );
