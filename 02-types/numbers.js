@@ -14,7 +14,7 @@
     avengers = 123;
     console.log({ avengers });
     //Permite el cambio ya que el Number retorna un numero
-    //el NaN (Not a Number) también es considera un number
+    //el NaN (Not a Number) también es considerado un number
     avengers = Number('55A');
     console.log({ avengers });
 })();
