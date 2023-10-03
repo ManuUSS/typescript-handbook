@@ -11,6 +11,7 @@
     //de beneficios que posee el tipado
     hero = 'Dr Manuel';
     console.log(hero.charAt(0)); //No intellisense
+    console.log(hero.charAt(0)); //Intellisense
     hero = 15.46465;
     console.log(hero.toFixed(2)); //No intellisense
     console.log(exists);
