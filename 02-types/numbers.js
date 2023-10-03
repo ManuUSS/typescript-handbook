@@ -9,6 +9,7 @@
     //el tipo de dato que almacena la variable
     let avengers = 10;
     const villians = 20;
+    console.log({ villians });
     //Permite el cambio ya que el tipo es el mismo
     avengers = 123;
     console.log({ avengers });
