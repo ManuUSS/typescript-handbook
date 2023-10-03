@@ -9,12 +9,5 @@
     //el tipo de dato que almacena la variable
     let b:number = 10;
     
-    
-    //* Funcion
-    //Para las funciones de igual manera se debe tipar los 
-    //parametros que este puede recibir
-    const sayHello = ( msg:string ) => {
-        console.log( msg );
-    }
-    
+
 })()

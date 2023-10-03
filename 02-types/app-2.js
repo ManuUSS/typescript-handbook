@@ -8,10 +8,4 @@
     //Cuando se define un var o let siempre es importante ponerle
     //el tipo de dato que almacena la variable
     let b = 10;
-    //* Funcion
-    //Para las funciones de igual manera se debe tipar los 
-    //parametros que este puede recibir
-    const sayHello = (msg) => {
-        console.log(msg);
-    };
 })();
