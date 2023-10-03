@@ -8,7 +8,7 @@
     
     // Al decir el tipo de elementos que acepta el array
     // cualquier tipo que no haga match con el mecionado
-    // saltará un erro
+    // saltará un error
     number.push( 11 );
     arrayVars.push( '11' );
     arrayVars.push( true );
