@@ -12,6 +12,7 @@
         // entonces que utilize ''
         if( upper )
             return  `${ firstName } ${ lastName || '' }`.toUpperCase();
+        
         return `${ firstName } ${ lastName || '' }`;
     }
 
