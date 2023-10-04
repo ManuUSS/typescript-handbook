@@ -5,7 +5,7 @@
     // para definir un argumento que no es obligatorio se utiliza
     // el caracter ? el cual indica que es opcional
     const fullName = (firstName, lastName) => {
-        return `${firstName} ${lastName}`;
+        return `${firstName} ${lastName || ''}`;
     };
     // Se deben respetar los tipos de datos que espera,
     // caso contrario muestra un error
