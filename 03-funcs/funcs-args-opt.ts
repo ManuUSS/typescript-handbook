@@ -5,6 +5,8 @@
     // para definir un argumento que no es obligatorio se utiliza
     // el caracter ? el cual indica que es opcional
     const fullName = ( firstName: string, lastName?: string ):string => {
+        // El operador || indica si no se tiene valor en lastName
+        // entonces que utilize ''
         return `${ firstName } ${ lastName || '' }`;
     }
 
