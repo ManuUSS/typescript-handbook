@@ -35,8 +35,8 @@
     }
   
     // Aserciones de Tipo
-    const poder: string = '100';
-    const largoDelPoder:number = poder.length;
+    const poder: any = '100';
+    const largoDelPoder:number = (poder as string).length;
     console.log( largoDelPoder );
   
   
