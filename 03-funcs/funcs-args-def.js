@@ -6,6 +6,7 @@
     // el caracter ? el cual indica que es opcional
     // el caracter = indica que el argumente tiene un valor por defecto
     // en caso que un valor no sea enviado
+    // al tener un valor por defecto se considerada opcional
     const fullName = (firstName, lastName, upper = false) => {
         // El operador || indica si no se tiene valor en lastName
         // entonces que utilize ''
