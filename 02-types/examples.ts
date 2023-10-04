@@ -20,10 +20,10 @@
         PowerIII = 5,
         PowerIV = 100
     }
-    const fuerzaFlash = Power.PowerIII;
-    const fuerzaSuperman = Power.PowerIV;
-    const fuerzaBatman = Power.PowerII;
-    const fuerzaAcuaman = Power.PowerI;
+    const fuerzaFlash:Power = Power.PowerIII;
+    const fuerzaSuperman:Power = Power.PowerIV;
+    const fuerzaBatman:Power = Power.PowerII;
+    const fuerzaAcuaman:Power = Power.PowerI;
   
     // Retorno de funciones
     function activar_batiseñal():string {
