@@ -32,7 +32,6 @@
         mutante: boolean;
         edad?: number;
     }
-    
     const villanos:Villian[] = [
         {
             nombre:"Lex Luthor",
@@ -51,6 +50,7 @@
         }
     ];
     
+    // Se define el Type
     type Charles = {
         poder: string;
         estatura: number;
@@ -61,6 +61,7 @@
     };
     
 
+    // Se define el Type
     type Apocalypse = {
         lider: boolean;
         miembros: string[];
