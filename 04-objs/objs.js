@@ -11,38 +11,11 @@
     flash = {
         name: 'Clark Kent',
         age: 60,
-        powers: ['Super fuerza'],
+        powers: ['Super fuerza']
         /*
         getName(){
             return this.name;
         }
-        /*
-    }
-
-})() 
+        */
     };
-    /*
-    getName(){
-        return this.name;
-    }
-    /*
-}
-
-})() 
-}
-/*
-getName(){
-    return this.name;
-}
-/*
-}
-
-})() );
-/*
-getName(){
-    return this.name;
-}
-/*
-}
-
-})() 
+})();
