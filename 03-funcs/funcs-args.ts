@@ -6,8 +6,8 @@
         return `${ firstName } ${ lastName }`;
     }
 
-    // Se deben respetar los tipos de datos que espera,
-    // caso contrario muestra un error
+    Se deben respetar los tipos de datos que espera,
+    caso contrario muestra un error
     const name = fullName('Manuel', 'Ulate');
     console.log( name );
 
