@@ -11,7 +11,14 @@
 
     // Da error al no reconocer la nueva propiedad que se desea agregar
     flash = {
-        lastName: 'Robertson'
+        name: 'Clark Kent',
+        age: 60,
+        powers: ['Super fuerza'],
+        /* 
+        getName(){
+            return this.name;
+        } 
+        /*
     }
 
 })()
