@@ -1,7 +1,8 @@
 "use strict";
 (() => {
     //* Objetos
-    // Al crear un objeto de esta manera TS infiere el tipo de dato
+    // Se crea un objeto de similar manera,
+    // se recomienda definir su tipo para respetar el tipado
     let flash = {
         name: 'Barry Allen',
         age: 24,

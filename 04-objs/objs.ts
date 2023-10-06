@@ -2,8 +2,9 @@
 
     //* Objetos
 
-    // Al crear un objeto de esta manera TS infiere el tipo de dato
-    let flash = {
+    // Se crea un objeto de similar manera,
+    // se recomienda definir su tipo para respetar el tipado
+    let flash: { name: string, age: number, powers: string[] } = {
         name: 'Barry Allen',
         age: 24,
         powers: ['Super velocidad', 'Viajar en el tiempo']
