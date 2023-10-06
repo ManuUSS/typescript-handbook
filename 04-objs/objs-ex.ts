@@ -8,7 +8,6 @@
         pasajeros: number,
         disparar?: () => void;
     }
-
     const batimovil:Car = {
         carroceria: "Negra",
         modelo: "6x6",
