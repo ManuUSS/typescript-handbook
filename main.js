@@ -49,6 +49,35 @@ var __rest = (this && this.__rest) || function (s, e) {
     let per = new Employee(100, "Bill");
     per.display();
     let emp = new Employee(100, "Bill");
+    class Car {
+        constructor(name) {
+            this.name = name;
+        }
+        run(speed = 0) {
+            console.log("A " + this.name + " is moving at " + speed + " mph!");
+        }
+    }
+    class Mercedes extends Car {
+        constructor(name) {
+            super(name);
+        }
+        run(speed = 150) {
+            console.log('A Mercedes started');
+            super.run(speed);
+        }
+    }
+    class Honda extends Car {
+        constructor(name) {
+            super(name);
+        }
+        run(speed = 100) {
+            console.log('A Honda started');
+        }
+    }
+    let mercObj = new Mercedes("Mercedes-Benz GLA");
+    let hondaObj = new Honda("Honda City");
+    mercObj.run();
+    hondaObj.run();
 })();
 (() => {
     const ironman = {
