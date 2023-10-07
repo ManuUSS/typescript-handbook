@@ -19,3 +19,4 @@
     const name = fullName('Manuel');
     console.log(name);
 })();
+//# sourceMappingURL=funcs-args-def.js.map

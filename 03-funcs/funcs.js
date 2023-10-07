@@ -17,3 +17,4 @@
     // Asignando un valor con el valor de retorno de una función
     const heroName = returnName();
 })();
+//# sourceMappingURL=funcs.js.map

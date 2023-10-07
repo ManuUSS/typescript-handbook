@@ -10,3 +10,4 @@
     //siguiendo el siguiente codigo
     let isUndefinedMan;
 })();
+//# sourceMappingURL=booleans.js.map

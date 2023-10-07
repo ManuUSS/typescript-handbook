@@ -9,3 +9,4 @@
     const voidV = callMe();
     console.log(voidV);
 })();
+//# sourceMappingURL=void.js.map

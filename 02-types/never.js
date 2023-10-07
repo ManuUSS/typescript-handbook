@@ -9,3 +9,4 @@
     };
     errorHandler('Error');
 })();
+//# sourceMappingURL=never.js.map

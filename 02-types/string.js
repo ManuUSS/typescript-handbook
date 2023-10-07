@@ -15,3 +15,4 @@
     console.log(batman[10].toUpperCase()); //En este ejemplo la posicion 10 no existe
     console.log(((_a = batman[10]) === null || _a === void 0 ? void 0 : _a.toUpperCase()) || 'No hay'); //Se puede solucionar con el null check (?)
 })();
+//# sourceMappingURL=string.js.map

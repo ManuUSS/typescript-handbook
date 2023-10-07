@@ -13,3 +13,4 @@
     hero[1] = 'Juan';
     */
 })();
+//# sourceMappingURL=tuples.js.map

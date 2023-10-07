@@ -15,3 +15,4 @@
     console.log(number);
     console.log(arrayVars);
 })();
+//# sourceMappingURL=arrays.js.map

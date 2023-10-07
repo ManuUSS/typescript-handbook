@@ -12,3 +12,4 @@
     };
     console.log(typeof myCustomVar);
 })();
+//# sourceMappingURL=objs-multi-types.js.map

@@ -26,3 +26,4 @@
     let noHaceNadaTampoco;
     noHaceNadaTampoco = noHaceNada;
 })();
+//# sourceMappingURL=funcs-ex.js.map

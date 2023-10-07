@@ -27,3 +27,4 @@
     //! Esto da error por el tipado: myFn = saveTheWorld;
     //! Esto da error por el tipado: console.log( myFn() );
 })();
+//# sourceMappingURL=funcs-type.js.map

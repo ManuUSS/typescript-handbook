@@ -18,3 +18,4 @@
     avengers = Number('55A');
     console.log({ avengers });
 })();
+//# sourceMappingURL=numbers.js.map
