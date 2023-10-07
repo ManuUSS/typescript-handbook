@@ -19,9 +19,20 @@
         power: 1500
     }
 
+
+    //? Desestructuración normal
     // Con las {} se destructuran las propiedades de un objeto
     // en este tipo de desestructuramiento no importa el orden, 
     // solamente el nombre de las propiedades (debe ser el mismo).
     const { active, nick, power } = avengers;
-    console.log( active, nick, power );
+    console.log( active, nick.toUpperCase(), power );
+    
+    //? Desestructuración de parametros
+    const printAvenger = ( { vision, ...rest }: Avangers ):void => {
+        console.log( vision );
+        console.log( rest );
+    }
+    printAvenger( avengers );
+
+
 })();
