@@ -13,12 +13,27 @@ var __rest = (this && this.__rest) || function (s, e) {
 (() => {
     const avengers = ['Cap América', 'Hulk', 'Ironman', 'Manuel'];
     const [cap, hulk, iron] = avengers;
-    console.log(cap, hulk, iron);
     const [, , , manu] = avengers;
-    console.log(manu);
     const tuple = ['Cap América', false, 20.454, 'Manuel'];
     const [capSecond, bool, num, me] = tuple;
-    console.log(capSecond.toLowerCase(), bool, num.toPrecision(2), me.toUpperCase());
+})();
+(() => {
+    const ironman = {
+        name: 'Ironman',
+        weapon: 'Armorsuit'
+    };
+    const capAmerica = {
+        name: 'Capitan America',
+        weapon: 'Shield'
+    };
+    const thor = {
+        name: 'Thor',
+        weapon: 'Mjolnir'
+    };
+    const avengers = [ironman, capAmerica, thor];
+    for (const avenger of avengers) {
+        console.log(avenger);
+    }
 })();
 (() => {
     const nombre = 'Manuel';
@@ -37,12 +52,10 @@ var __rest = (this && this.__rest) || function (s, e) {
         power: 1500
     };
     const { active, nick, power } = avengers;
-    console.log(active, nick.toUpperCase(), power);
     const printAvenger = (_a) => {
         var { vision } = _a, rest = __rest(_a, ["vision"]);
         console.log(vision);
         console.log(rest);
     };
-    printAvenger(avengers);
 })();
 //# sourceMappingURL=main.js.map
