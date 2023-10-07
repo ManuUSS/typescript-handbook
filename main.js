@@ -37,6 +37,18 @@ var __rest = (this && this.__rest) || function (s, e) {
     const falcon = new FlyingAvenger('Manuel - Falcon', 4561310);
     console.log(hulk);
     console.log(falcon.getName());
+    class Employee {
+        constructor(empcode, name) {
+            this.empCode = empcode;
+            this.name = name;
+        }
+        display() {
+            console.log("Name = " + this.name + ", Employee Code = " + this.empCode);
+        }
+    }
+    let per = new Employee(100, "Bill");
+    per.display();
+    let emp = new Employee(100, "Bill");
 })();
 (() => {
     const ironman = {
