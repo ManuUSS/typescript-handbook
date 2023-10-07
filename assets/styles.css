@@ -1,0 +1,26 @@
+html {
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 2rem;
+    height: calc( 100vh - 200px);
+}
+
+body {
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1 span {
+    font-size: 1.125rem;
+}
+
+p {
+    margin: .5rem 0;
+}
