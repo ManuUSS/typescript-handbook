@@ -24,8 +24,10 @@
 
     const avengers:Avenger[] = [ ironman, capAmerica, thor ];
 
-    for ( const avenger of avengers ) {
-        console.log( avenger );
-    }
+    const getAvengers = ():void => {
+        for ( const avenger of avengers ) {
+            console.log( avenger );
+        }
+    } 
 
 })()
