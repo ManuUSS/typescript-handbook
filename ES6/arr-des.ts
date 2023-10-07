@@ -12,4 +12,16 @@
     // De esta manera me salto posiciones de elementos que no ocupo
     const [ ,,, manu ] = avengers;
     console.log( manu );
+
+    //? Ejemplo con una tupla
+    const tuple:[ string, boolean, number, string ] = ['Cap América', false, 20.454, 'Manuel'];
+    // La desestructuración es la misma, lo importante es ver el 
+    // tipado que ofrece TS para mejorar el desarrollo
+    const [ capSecond, bool, num, me ] = tuple;
+    console.log( 
+        capSecond.toLowerCase(), 
+        bool, 
+        num.toPrecision( 2 ), 
+        me.toUpperCase() 
+    );
 })()

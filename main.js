@@ -16,6 +16,9 @@ var __rest = (this && this.__rest) || function (s, e) {
     console.log(cap, hulk, iron);
     const [, , , manu] = avengers;
     console.log(manu);
+    const tuple = ['Cap América', false, 20.454, 'Manuel'];
+    const [capSecond, bool, num, me] = tuple;
+    console.log(capSecond.toLowerCase(), bool, num.toPrecision(2), me.toUpperCase());
 })();
 (() => {
     const nombre = 'Manuel';
