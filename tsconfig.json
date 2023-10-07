@@ -108,5 +108,8 @@
   },
   "exclude": [
     "ignore/*.ts"
+  ],
+  "include": [
+    "ES6"
   ]
 }
