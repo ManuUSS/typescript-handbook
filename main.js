@@ -11,6 +11,13 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 (() => {
+    const avengers = ['Cap América', 'Hulk', 'Ironman', 'Manuel'];
+    const [cap, hulk, iron] = avengers;
+    console.log(cap, hulk, iron);
+    const [, , , manu] = avengers;
+    console.log(manu);
+})();
+(() => {
     const nombre = 'Manuel';
     const hero = {
         a: 1,
