@@ -18,6 +18,27 @@ var __rest = (this && this.__rest) || function (s, e) {
     const [capSecond, bool, num, me] = tuple;
 })();
 (() => {
+    class Avenger {
+        constructor(name, power) {
+            this.name = name;
+            this.power = power;
+        }
+        getName() {
+            return this.name;
+        }
+    }
+    class FlyingAvenger extends Avenger {
+        constructor(name, power) {
+            super(name, power);
+            this.canFly = true;
+        }
+    }
+    const hulk = new Avenger('Manuel', 1500);
+    const falcon = new FlyingAvenger('Manuel - Falcon', 4561310);
+    console.log(hulk);
+    console.log(falcon.getName());
+})();
+(() => {
     const ironman = {
         name: 'Ironman',
         weapon: 'Armorsuit'
