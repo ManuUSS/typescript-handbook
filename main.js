@@ -70,7 +70,7 @@ var __rest = (this && this.__rest) || function (s, e) {
         constructor(name) {
             super(name);
         }
-        run(speed = 100) {
+        run() {
             console.log('A Honda started');
         }
     }

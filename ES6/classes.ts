@@ -106,7 +106,7 @@
             super( name );
         }
         
-        run( speed = 100 ) {
+        run() {
             console.log( 'A Honda started' );
         }
     }
