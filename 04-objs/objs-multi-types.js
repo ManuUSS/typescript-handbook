@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-    //* Multiples Types en objetos
     let myCustomVar = "Manuel";
     console.log(typeof myCustomVar);
     myCustomVar = 20;

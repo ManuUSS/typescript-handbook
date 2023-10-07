@@ -1,8 +1,5 @@
 "use strict";
 (() => {
-    //* Enums
-    // Se define con la palabra reservada enum
-    // también es bueno utilizar UpperCamelCase
     let AudioLevel;
     (function (AudioLevel) {
         AudioLevel["min"] = "Min";
