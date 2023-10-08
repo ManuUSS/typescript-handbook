@@ -25,11 +25,8 @@
         constructor ( 
             private name:string, 
             public team:string, 
-            public realName:string,
-            avgAge: number = 35 
-        ) {
-            Avenger.avgAge = avgAge;
-        }
+            public realName:string
+        ) {}
 
     }
 

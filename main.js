@@ -1,11 +1,10 @@
 "use strict";
 (() => {
     class Avenger {
-        constructor(name, team, realName, avgAge = 35) {
+        constructor(name, team, realName) {
             this.name = name;
             this.team = team;
             this.realName = realName;
-            Avenger.avgAge = avgAge;
         }
     }
     Avenger.avgAge = 35;
