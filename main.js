@@ -22,4 +22,6 @@
     console.log(antMan.bio());
     console.log(Avenger.avgAge);
 })();
+(() => {
+})();
 //# sourceMappingURL=main.js.map
