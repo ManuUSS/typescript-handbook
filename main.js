@@ -1,12 +1,18 @@
 "use strict";
 (() => {
     class Avenger {
+        static getAvgAge() {
+            return this.avgAge;
+        }
         constructor(name, team, realName) {
             this.name = name;
             this.team = team;
             this.realName = realName;
         }
         bio() {
+            return `${this.name} (${this.team} - ${this.realName})`;
+        }
+        bioV() {
             return `${this.name} (${this.team} - ${this.realName})`;
         }
     }
