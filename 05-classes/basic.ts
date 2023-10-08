@@ -30,6 +30,7 @@
         
         // Definición de un método
         // el public es opcional ponerlo
+        // esto en JS ES6 no se puede hacer
         public bio():string {
             return `${ this.name } (${ this.team } - ${ this.realName })`
         }
