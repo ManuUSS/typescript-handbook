@@ -12,7 +12,7 @@
             console.log('Constructor Avenger')
         }
     
-        private getFullName() {
+        protected getFullName() {
             return `${ this.name } ${ this.realName }`
         }
 
@@ -30,6 +30,16 @@
             console.log( "Constructor Xman llamado" );
         }
 
+        public getFullNameXman():string {
+            return super.getFullName() + "Xman"; 
+        }
+
     }
+
+    const wolv: Xman = new Xman("Wolverine", "Logan", true);
+    console.log( wolv );
+
+    const newAv: Avenger = new Avenger("Manu", "Manuel");
+    console.log( newAv );
 
 })()

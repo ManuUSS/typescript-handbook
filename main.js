@@ -39,6 +39,13 @@
             this.isMutant = isMutant;
             console.log("Constructor Xman llamado");
         }
+        getFullNameXman() {
+            return super.getFullName() + "Xman";
+        }
     }
+    const wolv = new Xman("Wolverine", "Logan", true);
+    console.log(wolv);
+    const newAv = new Avenger("Manu", "Manuel");
+    console.log(newAv);
 })();
 //# sourceMappingURL=main.js.map
