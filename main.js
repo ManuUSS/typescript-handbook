@@ -57,4 +57,18 @@
     const newAv = new Avenger("Manu", "Manuel");
     console.log(newAv);
 })();
+(() => {
+    class Employee {
+        constructor(empcode, name) {
+            this.empCode = empcode;
+            this.name = name;
+        }
+        display() {
+            console.log("Name = " + this.name + ", Employee Code = " + this.empCode);
+        }
+    }
+    let per = new Employee(100, "Bill");
+    per.display();
+    let emp = new Employee(100, "Bill");
+})();
 //# sourceMappingURL=main.js.map
