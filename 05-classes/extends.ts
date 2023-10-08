@@ -49,7 +49,9 @@
     console.log( wolv );
     // LLamando a un getter
     console.log( wolv.getFullNameX );
-
+    // LLamando a un setter
+    wolv.setIsMutant = false;
+    console.log( wolv );
     const newAv: Avenger = new Avenger("Manu", "Manuel");
     console.log( newAv );
 

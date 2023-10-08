@@ -52,6 +52,8 @@
     const wolv = new Xman("Wolverine", "Logan", true);
     console.log(wolv);
     console.log(wolv.getFullNameX);
+    wolv.setIsMutant = false;
+    console.log(wolv);
     const newAv = new Avenger("Manu", "Manuel");
     console.log(newAv);
 })();
