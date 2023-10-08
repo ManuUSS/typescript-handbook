@@ -39,12 +39,19 @@
             this.isMutant = isMutant;
             console.log("Constructor Xman llamado");
         }
+        get getFullNameX() {
+            return `${this.name} - ${this.realName} - ${this.isMutant}`;
+        }
+        set setIsMutant(isMutant) {
+            this.isMutant = isMutant;
+        }
         getFullNameXman() {
             return super.getFullName() + "Xman";
         }
     }
     const wolv = new Xman("Wolverine", "Logan", true);
     console.log(wolv);
+    console.log(wolv.getFullNameX);
     const newAv = new Avenger("Manu", "Manuel");
     console.log(newAv);
 })();
