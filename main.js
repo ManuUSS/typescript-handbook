@@ -1,5 +1,13 @@
 "use strict";
 (() => {
+    class Monster {
+        constructor(name, realName) {
+            this.name = name;
+            this.realName = realName;
+        }
+    }
+})();
+(() => {
     class Avenger {
         static getAvgAge() {
             return this.avgAge;
