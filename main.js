@@ -17,9 +17,9 @@
         }
     }
     const mast = new Character("Mast", "Juan");
-    console.log(mast);
+    console.log(mast.saveWord());
     const vest = new Villian("Vest", "Said");
-    console.log(vest);
+    console.log(vest.conquerWord());
 })();
 (() => {
     class Avenger {

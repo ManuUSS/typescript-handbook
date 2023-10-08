@@ -20,19 +20,19 @@
     // de esta manera se pueden utilizar de cascarón para crear
     // otro tipo de clases, como un template
     class Character extends Monster {
-        public saveWord() {
+        public saveWord():string {
             return 'Saved'
         }
     }
     class Villian extends Monster {
-        public conquerWord() {
+        public conquerWord():string {
             return 'Conquered'
         }
     }
 
     const mast = new Character("Mast", "Juan");
-    console.log( mast );
+    console.log( mast.saveWord() );
 
     const vest = new Villian("Vest", "Said");
-    console.log( vest );
+    console.log( vest.conquerWord() );
 })()
