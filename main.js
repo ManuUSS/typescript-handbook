@@ -20,6 +20,11 @@
     console.log(mast.saveWord());
     const vest = new Villian("Vest", "Said");
     console.log(vest.conquerWord());
+    const printName = (char) => {
+        console.log(char.name);
+    };
+    printName(mast);
+    printName(vest);
 })();
 (() => {
     class Avenger {

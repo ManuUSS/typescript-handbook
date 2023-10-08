@@ -35,4 +35,12 @@
 
     const vest = new Villian("Vest", "Said");
     console.log( vest.conquerWord() );
+
+    const printName = ( char: Monster ) => {
+        console.log( char.name );
+    }
+
+    printName( mast );
+    printName( vest );
+
 })()
