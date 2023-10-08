@@ -23,5 +23,22 @@
     console.log(Avenger.avgAge);
 })();
 (() => {
+    class Avenger {
+        constructor(name, realName) {
+            this.name = name;
+            this.realName = realName;
+            console.log('Constructor Avenger');
+        }
+        getFullName() {
+            return `${this.name} ${this.realName}`;
+        }
+    }
+    class Xman extends Avenger {
+        constructor(name, realName, isMutant) {
+            super(name, realName);
+            this.isMutant = isMutant;
+            console.log("Constructor Xman llamado");
+        }
+    }
 })();
 //# sourceMappingURL=main.js.map
