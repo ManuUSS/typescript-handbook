@@ -11,6 +11,7 @@
         // Solo puede ser accedida mediante la instacia de la clase
         static avgAge: number = 35;
 
+        // Se crea un constructor de igual manera
         constructor ( name:string, team:string, realName:string ) {
             this.name = name;
             this.team = team;
