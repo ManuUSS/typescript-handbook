@@ -110,6 +110,6 @@
     "ignore/*.ts"
   ],
   "include": [
-    "ES6"
+    "05-classes"
   ]
 }
