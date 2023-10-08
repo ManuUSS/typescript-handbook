@@ -6,6 +6,20 @@
             this.realName = realName;
         }
     }
+    class Character extends Monster {
+        saveWord() {
+            return 'Saved';
+        }
+    }
+    class Villian extends Monster {
+        conquerWord() {
+            return 'Conquered';
+        }
+    }
+    const mast = new Character("Mast", "Juan");
+    console.log(mast);
+    const vest = new Villian("Vest", "Said");
+    console.log(vest);
 })();
 (() => {
     class Avenger {
