@@ -27,11 +27,18 @@
             public team:string, 
             public realName:string
         ) {}
+        
+        // Definición de un método
+        // el public es opcional ponerlo
+        public bio():string {
+            return `${ this.name } (${ this.team } - ${ this.realName })`
+        }
 
     }
 
     const antMan: Avenger = new Avenger( 'Manu', 'UCR', 'Manuel' );
     console.log( antMan );
+    console.log( antMan.bio() );
     console.log( Avenger.avgAge );
 
 })()
