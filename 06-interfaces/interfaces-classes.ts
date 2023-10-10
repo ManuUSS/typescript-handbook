@@ -8,7 +8,8 @@
         sugar: number;
         createFlavor( name:string ):void;
     }
-
+    
+    // Se crea una interfaz normal
     interface Fanta {
         price: number;
     }
