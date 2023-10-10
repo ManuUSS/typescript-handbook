@@ -11,6 +11,19 @@
     };
 })();
 (() => {
+    class Soda {
+        constructor(flavor, sugar, price) {
+            this.flavor = flavor;
+            this.sugar = sugar;
+            this.price = price;
+        }
+        createFlavor(name) {
+            console.log(`Nuevo sabor ${name} en creación`);
+        }
+    }
+    const coke = new Soda("Vainilla", 500, 15800);
+    const fanta = new Soda("Vainilla", 500, 15800);
+    coke.createFlavor("Chocolate");
 })();
 (() => {
     const client = {
