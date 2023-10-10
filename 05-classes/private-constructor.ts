@@ -26,6 +26,11 @@
 
         }
 
+        // Método que modifica la instancia de la clase
+        changeName( newName:string ): void {
+            this.name = newName;
+        }
+
     }
 
     //? Cada una de estas es una nueva instancia a la clase
