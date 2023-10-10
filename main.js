@@ -14,7 +14,7 @@
     const client = {
         name: 'Manuel',
         age: 20,
-        addres: {
+        address: {
             id: 212,
             zip: '20201',
             city: 'San Ramón'
