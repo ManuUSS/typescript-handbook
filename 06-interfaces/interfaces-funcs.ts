@@ -11,6 +11,14 @@
         ( a: number, b:number ):number;
     }
 
-    
+    // Declaro la función, y le asigno el tipo
+    // de igual manera que se realiza con todos
+    // los demás tipos de datos
+    const addNumbersFunction:AddNumbers = ( a: number, b: number ) => {
+        return a + b;
+    }
+
+    //? Llamo a la ejecución de la función
+    console.log( addNumbersFunction( 5, 5 ) );
 
 })()
