@@ -11,6 +11,7 @@
         alias?: string;
     }
 
+    // Segundo nivel de la interfaz
     interface Address {
         id: number;
         zip: string;
