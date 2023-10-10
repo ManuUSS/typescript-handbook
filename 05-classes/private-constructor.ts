@@ -40,6 +40,7 @@
     
     //? Cada una de estas es la misma instancia a la clase
     const apo1 = Apocalypse.callApocalypse();
+    apo1.changeName("2023")
     const apo2 = Apocalypse.callApocalypse();
     const apo3 = Apocalypse.callApocalypse();
 
