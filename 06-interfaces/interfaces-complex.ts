@@ -8,6 +8,7 @@
         // de esta manera se mejora la sintaxis
         address: Address;
         // El ? indica que la propiedad es opcional
+        job?: Job;
         alias?: string;
     }
 
@@ -16,6 +17,13 @@
         id: number;
         zip: string;
         city: string;        
+    }
+
+    interface Job {
+        name: string;
+        place: string;
+        description?: string;
+        date: Date;
     }
 
     const client:Client = {
