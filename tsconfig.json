@@ -110,6 +110,6 @@
     "ignore/*.ts"
   ],
   "include": [
-    "05-classes"
+    "06-interfaces"
   ]
 }
