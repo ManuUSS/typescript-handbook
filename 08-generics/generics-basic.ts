@@ -12,4 +12,10 @@
         return arg;
     }
 
+    // Infiere que es de tipo string
+    let myOutpout = identity("siu");
+    console.log( myOutpout.toUpperCase() );
+    let myOutpoutNumber = identityN( 5.154545 );
+    console.log( myOutpoutNumber.toFixed( 2 ));
+
 })()
