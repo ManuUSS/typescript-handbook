@@ -32,9 +32,10 @@
 
     const coke:Coke = new Soda("Vainilla", 500, 15800 );
     const fanta:Fanta = new Soda("Vainilla", 500, 15800 );
-    // console.log( coke.price ) //! Error: interfaz COke no tiene propiedad price
     coke.createFlavor("Chocolate");
     // fanta.createFlavor("Juanilama") //! Error: interfaz Fanta no tiene metodo createFlavor
+    console.log( fanta.price );
+    // console.log( coke.price ) //! Error: interfaz COke no tiene propiedad price
 
 
 })()

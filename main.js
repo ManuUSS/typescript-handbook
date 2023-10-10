@@ -24,6 +24,7 @@
     const coke = new Soda("Vainilla", 500, 15800);
     const fanta = new Soda("Vainilla", 500, 15800);
     coke.createFlavor("Chocolate");
+    console.log(fanta.price);
 })();
 (() => {
     const client = {
