@@ -11,6 +11,8 @@
     };
 })();
 (() => {
+})();
+(() => {
     const client = {
         name: 'Manuel',
         age: 20,
