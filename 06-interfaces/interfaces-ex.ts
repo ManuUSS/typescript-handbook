@@ -51,8 +51,6 @@
         return ciudadanos.length;
     }
 
-    // Cree una interfaz que obligue crear una clase
-    // con las siguientes propiedades y metodos
 
     interface Person {
         nombre: string;
@@ -65,6 +63,7 @@
         F = 'Femenino',
         M = 'Masculino'
     }
+    
     class Persona implements Person {
 
         constructor (
