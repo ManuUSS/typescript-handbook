@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sourceRoot":"","sources":["06-interfaces/basics.ts"],"names":[],"mappings":";AAAA,CAAC,GAAG,EAAE;AAEN,CAAC,CAAC,EAAE,CAAA"}
+{"version":3,"file":"main.js","sourceRoot":"","sources":["06-interfaces/basics.ts"],"names":[],"mappings":";AAAA,CAAC,GAAG,EAAE;IAaF,IAAI,QAAQ,GAAS;QACjB,IAAI,EAAE,YAAY;QAClB,GAAG,EAAE,EAAE;QACP,MAAM,EAAE,CAAE,cAAc,CAAE;QAC1B,OAAO;YACH,OAAO,IAAI,CAAC,IAAI,CAAC;QACrB,CAAC;KACJ,CAAA;AACL,CAAC,CAAC,EAAE,CAAA"}
