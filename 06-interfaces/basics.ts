@@ -11,7 +11,13 @@
         getName?:() => string;
     }
 
+    // Con type esto daría un error
+    interface Hero {
+        id: number;
+    }
+
     let superMan: Hero = {
+        id: 12254,
         name: 'Clark Kent',
         age: 60,
         powers: [ 'Super fuerza' ],
