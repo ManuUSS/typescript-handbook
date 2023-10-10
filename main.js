@@ -10,4 +10,6 @@
         }
     };
 })();
+(() => {
+})();
 //# sourceMappingURL=main.js.map
