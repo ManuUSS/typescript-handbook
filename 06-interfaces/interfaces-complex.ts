@@ -7,6 +7,7 @@
         // es considerable crear una nueva interfaz
         // de esta manera se mejora la sintaxis
         address: Address;
+        getFullAddress( id:string ):void;
         // El ? indica que la propiedad es opcional
         job?: Job;
         alias?: string;
@@ -33,6 +34,9 @@
             id: 212,
             zip: '20201',
             city: 'San Ramón'
+        },
+        getFullAddress( id: string ) {
+            return this.address.zip;
         }
     }
 

@@ -18,6 +18,9 @@
             id: 212,
             zip: '20201',
             city: 'San Ramón'
+        },
+        getFullAddress(id) {
+            return this.address.zip;
         }
     };
 })();
