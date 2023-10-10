@@ -40,4 +40,6 @@
         }
     };
 })();
+(() => {
+})();
 //# sourceMappingURL=main.js.map
