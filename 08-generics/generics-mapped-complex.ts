@@ -55,16 +55,28 @@
     
     // Todas las propiedades se transforman a métodos
     type GetsUser     = MyMappedGenericMethods<User>;
-    const getUser: GetsUser = {
-        getName: () => 'Manuel',
-        getUserName: () => 'iManu',
-        getEmail: () => 'manuel.gmail.com',
-        getAge:() => 20,
+
+    interface UserExtra {
+        passWord: string;
+        country: string;
+        description: string;
     }
 
-    console.log( getUser.getName() ); // Manuel
-    console.log( getUser.getUserName() ); // 20
-    console.log( getUser.getEmail() ); // manuel.gmail.com
-    console.log( getUser.getAge() ); // 20
+    interface Client extends MyMappedGenericPartial<UserExtra>{
+        bankAccount: string;
+        age: number;
+        civilStatus: string;
+    }   
+
+    const myUser: Client = {
+        // Pedidas por User
+        bankAccount: "Manuel",
+        age: 20,
+        civilStatus: "imanuel.ulate@gmail.com",
+        // Propiedades de UserExtra
+        description:  undefined, //Al pasar por MyMapped todas son opcionales  
+        passWord:     undefined, //Al pasar por MyMapped todas son opcionales  
+        country:      undefined  //Al pasar por MyMapped todas son opcionales 
+    }
 
 })()
