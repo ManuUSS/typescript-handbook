@@ -56,27 +56,25 @@
     // Todas las propiedades se transforman a métodos
     type GetsUser     = MyMappedGenericMethods<User>;
 
-    interface UserExtra {
-        passWord: string;
-        country: string;
-        description: string;
-    }
-
-    interface Client extends MyMappedGenericPartial<UserExtra>{
+    interface Client extends PartialUser{
         bankAccount: string;
-        age: number;
         civilStatus: string;
+        workAs     : string;
     }   
 
+
+    //? Implementando la interfaz que extiende del tipo
     const myUser: Client = {
         // Pedidas por User
         bankAccount: "Manuel",
-        age: 20,
         civilStatus: "imanuel.ulate@gmail.com",
+        workAs: "Front End Dev",
         // Propiedades de UserExtra
-        description:  undefined, //Al pasar por MyMapped todas son opcionales  
-        passWord:     undefined, //Al pasar por MyMapped todas son opcionales  
-        country:      undefined  //Al pasar por MyMapped todas son opcionales 
+        name    : undefined, // Al pasar el Mapped se transforman en opcionales
+        userName: undefined, // Al pasar el Mapped se transforman en opcionales
+        email   : undefined, // Al pasar el Mapped se transforman en opcionales
+        age     : 20 // Al pasar el Mapped se transforman en opcionales
+
     }
 
 })()
