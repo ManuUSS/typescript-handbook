@@ -29,4 +29,29 @@
 
     console.log( myObj ); 
 
+    type MyMappedGeneric<T> = {
+        [ prop in keyof T ]?: T[ prop ];
+    }
+
+    interface UserExtra {
+        age: number;
+        passWord: string;
+        country: string;
+    }
+
+    interface User extends MyMappedGeneric<UserExtra>{
+        name: string;
+        email: string;
+    }   
+
+    const myUser: User = {
+        // Pedidas por User
+        name: "",
+        email: "",
+        // Propiedades de UserExtra
+        age:      undefined, //Al pasar por MyMapped todas son opcionales  
+        passWord: undefined, //Al pasar por MyMapped todas son opcionales  
+        country:  undefined  //Al pasar por MyMapped todas son opcionales 
+    }
+
 })()
