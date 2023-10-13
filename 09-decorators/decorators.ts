@@ -15,7 +15,7 @@ const blockPrototype = function( constructor: Function ) {
     Object.seal( constructor.prototype );
 }
 
-function CheckValidPokemon() {
+function CheckValidPokemon():Function {
     return function ( target: any, propertyKey: string, descriptor: PropertyDescriptor ) {
         const originalFn = descriptor.value;
         descriptor.value = ( id: number ) => {
