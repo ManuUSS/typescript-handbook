@@ -28,3 +28,21 @@ function CheckValidPokemon():Function {
     }
 }
 
+function ReadOnly( isWritable: boolean = true ):Function {
+    return function ( target: any, propertyKey: string ) {
+        const descriptor:PropertyDescriptor = {
+            get() {
+                return 'Manuel'
+            },
+            set( this, val ) {
+                Object.defineProperty( this, propertyKey, {
+                    value: val,
+                    writable: !isWritable,
+                    enumerable: false
+                })
+            }
+        }
+
+        return descriptor;
+    }
+}
