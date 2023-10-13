@@ -15,3 +15,16 @@ const blockPrototype = function( constructor: Function ) {
     Object.seal( constructor.prototype );
 }
 
+function CheckValidPokemon():Function {
+    return function ( target: any, propertyKey: string, descriptor: PropertyDescriptor ) {
+        const originalFn = descriptor.value;
+        descriptor.value = ( id: number ) => {
+            if( id < 1 || id > 800 ) {
+                return console.error('El id del pokemon no existe')
+            } else {
+                return originalFn( id );
+            }
+        }
+    }
+}
+
