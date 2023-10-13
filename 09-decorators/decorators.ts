@@ -1,4 +1,4 @@
-const blockPrototype = function( constructor: Function ) {
+function BlockPrototype( constructor: Function ) {
     Object.seal( constructor );
     Object.seal( constructor.prototype );
 }
@@ -36,7 +36,7 @@ function ReadOnly( isWritable: boolean = true ):Function {
 }
 
 
-@blockPrototype
+
 export class Pokemon {
 
     @ReadOnly()
