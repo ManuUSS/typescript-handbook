@@ -2,9 +2,7 @@
 
     //* Genéricos
 
-    // Los genéricos permiten generar interfaces
-    // más ajustables a diferentes tipos, se tiene un tipado
-    // un poco menos estricto, para agrega mucha flexibilidad
+   
 
     // Declarando una función de flecha genérica
     const identity = <Type>(arg: Type): Type => {
