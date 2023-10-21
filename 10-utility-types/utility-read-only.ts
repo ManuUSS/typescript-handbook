@@ -14,4 +14,5 @@
     // todo.title = "Hello"; 
     //! Error: Cannot assign to 'title' because it is a read-only property.
 
+    // Es una funcionalidad parecida al Object.Freeze
 })()
