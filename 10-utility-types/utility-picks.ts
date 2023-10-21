@@ -14,10 +14,7 @@
 
     // Uso de la utilidad con una intefaz
     interface TodoLik extends Pick<Todo, "description" | "title">{};
-    const todoInt: TodoLik = {
-        description: "Wash car",
-        title: "My car"
-    };
+    
        
     const todo: TodoPreview = {
         title: "Clean room",
