@@ -9,7 +9,7 @@
         completed: boolean;
     }
     
-    
+    // Uso de la utilidad con un type
     type TodoPreview = Pick<Todo, "title" | "completed">;
 
     // Uso de la utilidad con una intefaz
