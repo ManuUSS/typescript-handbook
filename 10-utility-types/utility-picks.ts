@@ -12,7 +12,7 @@
     // Uso de la utilidad con un type
     type TodoPreview = Pick<Todo, "title" | "completed">;
 
-   
+    // Uso de la utilidad con una intefaz
     interface TodoLik extends Pick<Todo, "description" | "title">{};
     const todoInt: TodoLik = {
         description: "Wash car",
