@@ -13,12 +13,6 @@
         code: NonNullable<UserCode>
     }
 
-    const user:User = {
-        name: "Manuel",
-        age: 20,
-        password: "123544",
-        // code: undefined; //! Error: undefined no puede ser asignado a string o number
-        code: "20201"
-    }
+    
 
 })()
