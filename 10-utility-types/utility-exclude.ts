@@ -11,5 +11,27 @@
     let m:AppleBanana = "apple";
     m = "banana";
     // m = "orange" //! Error: "orange" cannot be assigned to "apple" | "banana"
+
+
+    // También puede trabajar con objetos
+    type Event =
+    | 
+    {
+        type: "click";
+        x: number;
+        y: number;
+    }
+    | 
+    {
+        type: "focus";
+    }
+    | 
+    {
+        type: "change";
+        value: string;
+    };
+
+    type ClickAndFocusEvent = Exclude<Event, { type: "click" }>; 
+    // { type: 'focus' } | { type: 'change', value: string }
     
 })()
