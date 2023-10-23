@@ -23,7 +23,11 @@
         createdAt: 1615544252770,
     };
     
-    
+    // Uso con type
+    type TodoInfo = Omit<Todo, "completed" | "createdAt">;
+
+    // Uso con interfaz
+    interface ITodoInfo extends Omit<Todo, "completed" | "createdAt">{}
 
     const todoInfo: ITodoInfo = {
         title: "Pick up kids",
